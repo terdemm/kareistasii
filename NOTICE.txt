@@ -1,0 +1,1 @@
+Voice and alignment helpers retained from the supplied Faceless Shorts package, unchanged. Original authors retain their rights. No separate redistribution license was supplied for these helper files; the MIT license for the original drawing code does not relicense them. Kokoro model and dependencies retain their upstream licenses.

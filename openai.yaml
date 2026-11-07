@@ -1,0 +1,4 @@
+interface:
+  display_name: "Kare Ustası"
+  short_description: "Konudan özgün 2D animasyon ve MP4 üretimi"
+  default_prompt: "Use $kare-ustasi to create an original 30-second Turkish animated explainer with narration and captions."

@@ -1,0 +1,129 @@
+{
+  "title": "Özellik örnekleri",
+  "style": "merak",
+  "language": "tr",
+  "sources": [],
+  "scenes": [
+    {
+      "text": "Bir elma, küçük bir hareket.",
+      "duration": 2,
+      "kind": "stick",
+      "action": "eat",
+      "prop": "apple",
+      "captions": false
+    },
+    {
+      "text": "Bir kalp atışı.",
+      "duration": 2,
+      "kind": "science",
+      "organ": "heart",
+      "particles": true,
+      "captions": false
+    },
+    {
+      "text": "Bir rota.",
+      "duration": 3,
+      "kind": "geomap",
+      "zoom": 0,
+      "map": {
+        "bounds": [
+          5,
+          34,
+          40,
+          57
+        ],
+        "route": [
+          [
+            28.9784,
+            41.0082
+          ],
+          [
+            13.405,
+            52.52
+          ]
+        ],
+        "highlight": [
+          "TUR",
+          "DEU"
+        ],
+        "markers": [
+          {
+            "name": "İstanbul",
+            "at": [
+              28.9784,
+              41.0082
+            ]
+          },
+          {
+            "name": "Berlin",
+            "at": [
+              13.405,
+              52.52
+            ]
+          }
+        ]
+      },
+      "captions": false
+    },
+    {
+      "text": "Bir kâğıt hikâye.",
+      "duration": 2,
+      "kind": "paper",
+      "date": "ÖRNEK",
+      "prop": "parcel",
+      "captions": false
+    },
+    {
+      "text": "Zaman içinde üç adım.",
+      "duration": 2,
+      "kind": "timeline",
+      "events": [
+        {
+          "date": "1",
+          "text": "Başlangıç"
+        },
+        {
+          "date": "2",
+          "text": "Gelişme"
+        },
+        {
+          "date": "3",
+          "text": "Sonuç"
+        }
+      ],
+      "captions": false
+    },
+    {
+      "text": "Veriler hareket ediyor.",
+      "duration": 2,
+      "kind": "chart",
+      "values": [
+        {
+          "name": "A",
+          "value": 25
+        },
+        {
+          "name": "B",
+          "value": 40
+        },
+        {
+          "name": "C",
+          "value": 65
+        }
+      ],
+      "captions": false
+    },
+    {
+      "text": "Üç boyutlu bir oda.",
+      "duration": 2,
+      "kind": "scene3d",
+      "action": "lift",
+      "prop": "apple",
+      "space": {
+        "look": "sunny",
+        "orbit": 0.6
+      },
+      "captions": false
+    }
+  ]
+}

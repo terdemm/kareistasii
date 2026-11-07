@@ -1,0 +1,52 @@
+{
+  "title": "Bir bildirim, bütün planı değiştirir",
+  "style": "merak",
+  "language": "tr",
+  "sources": [],
+  "scenes": [
+    {
+      "text": "Kargonuz bugün teslim edilecek.",
+      "duration": 2.5,
+      "kind": "actor",
+      "action": "lift",
+      "prop": "phone",
+      "badge": "BİR MESAJ GELDİ",
+      "sfx": [
+        {
+          "at": 0.6,
+          "type": "pop"
+        }
+      ]
+    },
+    {
+      "text": "Ama saat yazmıyor.",
+      "duration": 2.0,
+      "kind": "detail",
+      "prop": "phone",
+      "label": "09:00 — 21:00",
+      "zoom": 0.06
+    },
+    {
+      "text": "Dışarı çıkmak bir anda riskli geliyor.",
+      "duration": 2.5,
+      "kind": "actor",
+      "action": "wait",
+      "setting": "night",
+      "expression": "surprise",
+      "badge": "YA TAM O ANDA GELİRSE?"
+    },
+    {
+      "text": "Paket sonunda yola çıkıyor.",
+      "duration": 2.0,
+      "kind": "map",
+      "badge": "TEMSİLİ TESLİMAT ROTASI"
+    },
+    {
+      "text": "Ve beklenen an geliyor.",
+      "duration": 2.0,
+      "kind": "detail",
+      "prop": "parcel",
+      "label": "SONUNDA!"
+    }
+  ]
+}
